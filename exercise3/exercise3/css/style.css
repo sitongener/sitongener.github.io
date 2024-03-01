@@ -1,0 +1,117 @@
+/* body{
+    background-color:blanchedalmond;
+    max-width: 800px;
+    
+    margin-left: 30%;
+} */
+body {
+	background-color: #e3f4ec;
+	color: rgb(129, 78, 19);
+	max-width: 100%;
+	position: relative;
+	margin: 0;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 2rem;
+    align-items: start;
+	/* padding: 4rem;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	gap: 2rem;
+	align-items: start; */
+} 
+
+p{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.intro-text{
+    color:hotpink;
+    width: 20%;
+}
+.navigation{
+    /* position: fixed; */
+    font-size: medium;
+    color:coral;
+    border: 1px solid brown;
+    position: sticky;
+    font-family:'Courier New', Courier, monospace;
+    top: 2rem;
+    left: auto;
+    margin: 1rem;
+    padding: 1rem;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 100%;  
+}
+
+.navigation a {
+    text-decoration: none;
+    transition: color 1s ease;
+}
+.navigation a:hover {
+	color: black;
+}
+
+:target:before {
+	content: "×";
+	display: inline-block;
+	animation: current-header 3s ease infinite reverse;
+}
+
+@keyframes current-header {
+	0% {
+		transform: rotate(0deg) scale(1);
+	}
+    50% {
+		transform: rotate(360deg) scale(2);
+	}
+
+	100% {
+		transform: rotate(720deg) scale(1);
+	}
+}
+
+.navigation ol{
+    list-style: none;
+}
+
+.navigation li{
+    border-bottom: 1px solid darkgoldenrod; 
+}
+
+.navigation > ol > li:last-child {
+	border-bottom: none;
+}
+
+.related {
+	background-color: rgb(224, 130, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.related_section-title {
+	font-family: 'Courier New', Courier, monospace;
+    flex-basis: 100%;
+}
+
+.related_essay {
+	background-color: rgb(136, 225, 255);
+    border: 1px solid black;
+	margin-bottom: 1rem;
+	width: 100%;
+	padding: 1rem; 
+	box-sizing: border-box;
+    flex-basis: calc(100%/3);
+	 /* margin: 1rem; */
+}
+
+.related_title {
+	font-family: sans-serif;
+}
+
+.related_author {
+	font-family: sans-serif;
+}
