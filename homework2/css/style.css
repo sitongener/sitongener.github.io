@@ -1,0 +1,86 @@
+body{
+   
+    /* background-image: url(../image/water2.gif); */
+    background-size: 100%;
+    max-width: 800px;
+    
+    margin-left: 30%;
+}
+
+h1{
+    font-size: 50px;
+    color: darkgray;
+    background-color: rgb(226, 252, 255);
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 10%;
+}
+p{
+    font-size: 30px;
+    color: rgb(68, 68, 68);
+    background-color: rgb(226, 252, 255);
+    font-family:'Courier New', Courier, monospace;
+    margin-top: auto;
+}
+.normtext{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    background-color: rgb(226, 252, 255);
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 10%;
+}
+
+.intro-text{
+    color:hotpink;
+    width: 20%;
+}
+.navigation{
+    position: fixed;
+    font-size: medium;
+    color:coral;
+    font-family:'Courier New', Courier, monospace;
+    top: 10%;
+    left: 10%;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 40%;  
+}
+.img_p1_1{
+margin: auto;
+display: block;
+    width: 100%;
+}
+
+.styled {
+    margin-left: 25%;
+ margin-top: 5%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(103, 166, 255);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgb(0, 106, 255);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
