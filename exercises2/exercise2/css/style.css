@@ -2,16 +2,24 @@ body{
     background-color:blanchedalmond;
     max-width: 800px;
     
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 p{
     font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 .intro-text{
     color:hotpink;
     width: 20%;
+}
+.navigation{
+    position: fixed;
+    font-size: medium;
+    color:coral;
+    font-family:'Courier New', Courier, monospace;
+    top: 10%;
+    left: 10%;
 }
 img{
     margin: auto;
