@@ -58,6 +58,31 @@ p{
     justify-content: center;
     
   }
+  .eyeimg_2 {
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: contain; /* This ensures the image covers the entire circle */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .eyeimg_3 {
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: contain; /* This ensures the image covers the entire circle */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
   @keyframes move {
     0% {
 		transform: rotate(0deg) scale(1);
